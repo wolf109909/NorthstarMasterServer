@@ -1,4 +1,4 @@
-fetch('https://api.github.com/repos/R2Northstar/Northstar/releases/latest')
+fetch('https://api.github.com/repos/R2NorthstarCN/NorthstarCN_Launcher/releases/latest')
     .then(response => response.json())
     .then(data => {
         document.querySelectorAll('.download').forEach(d => { d.href = data.assets[0].browser_download_url });

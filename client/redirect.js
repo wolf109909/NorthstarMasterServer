@@ -12,7 +12,7 @@ module.exports = ( fastify, opts, done ) =>
 		},
 		async ( request, reply ) =>
 		{
-			reply.redirect( "https://github.com/R2Northstar" )
+			reply.redirect( "https://github.com/R2NorthstarCN" )
 		} )
 
 	// GET /discord
@@ -23,7 +23,7 @@ module.exports = ( fastify, opts, done ) =>
 		},
 		async ( request, reply ) =>
 		{
-			reply.redirect( "https://discord.gg/GYVRKC9pJh" )
+			reply.redirect( "https://kaihei.co/qetaS2" )
 		} )
 
 	// GET /wiki
